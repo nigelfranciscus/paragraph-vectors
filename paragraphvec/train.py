@@ -5,6 +5,7 @@ import fire
 import torch
 from torch.optim import Adam
 
+
 from paragraphvec.data import load_dataset, NCEData
 from paragraphvec.loss import NegativeSampling
 from paragraphvec.models import DM, DBOW
